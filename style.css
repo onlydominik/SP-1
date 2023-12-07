@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+:root {
+  font-size: 16px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h1,
+h2 {
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5rem;
+}
+
+button {
+  font-weight: 700;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  font-size: 0.9rem;
+}
+
+a:hover {
+  color: hsla(245, 75%, 52%, 0.712);
+  text-decoration: none;
+}
+
+body {
+  background: url(/images/pattern-background-mobile.svg) no-repeat, hsl(225, 100%, 94%);
+  background-size: contain;
+  background-position: top;
+}
+
+.card {
+  width: clamp(200px, 80%, 300px);
+  background-color: #ffffff;
+  border-radius: 1rem;
+  gap: 1.5rem;
+  overflow: hidden;
+  text-align: center;
+  padding: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+.card_illustration {
+  width: calc(100% + 2.4rem);
+  margin-top: -1.2rem;
+}
+
+.card_main {
+  padding: 1rem;
+}
+
+.card_button--proceed {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card_button--proceed:hover {
+  background-color: hsla(245, 75%, 52%, 0.712);
+}
+
+.card_button--cancel {
+  background-color: transparent;
+  margin-top: -10px;
+  color: hsl(224, 23%, 55%);
+}
+
+.card_button--cancel:hover {
+  color: black;
+}
+
+.details {
+  background-color: hsl(225, 100%, 98%);
+  gap: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.details_info {
+  line-height: 1.3rem;
+  margin-right: 2rem;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 900px) {
+  body {
+    background: url(/images/pattern-background-desktop.svg) no-repeat, hsl(225, 100%, 94%);
+    background-size: contain;
+    background-position: top;
+  }
+}/*# sourceMappingURL=style.css.map */
